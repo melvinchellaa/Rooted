@@ -1,0 +1,5 @@
+sceneSetups:
+- path: C:/Users/melvi/OneDrive/Documents/GitHub/Rooted/Rooted_Src/Assets/Scenes/Menu.unity
+  isLoaded: 1
+  isActive: 1
+  isSubScene: 0
