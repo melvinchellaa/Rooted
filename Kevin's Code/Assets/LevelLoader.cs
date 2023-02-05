@@ -17,18 +17,18 @@ public class LevelLoader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (player.transform.position.x > 8)
+        if (player.transform.position.x > 9.5)
         {
             LoadNextLevel();
         }
 
-        if (player.transform.position.x < -8)
+        if (player.transform.position.x < -9.5)
         {
-            LoadPrevioiusLevel();
+            LoadPreviousLevel();
         }
     }
 
-    public void LoadPrevioiusLevel()
+    public void LoadPreviousLevel()
     {
         StartCoroutine(LoadLevel(SceneManager.GetActiveScene().buildIndex - 1));
     }
